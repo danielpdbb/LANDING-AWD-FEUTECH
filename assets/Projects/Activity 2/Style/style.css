@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(213, 81, 81), black);
+    position: relative;
+
+    .word {
+        color: whitesmoke;
+        font-size: 10rem;
+        cursor: none;
+    }
+}
+
+.illumination {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background: url('https://media.thenerdstash.com/wp-content/uploads/2023/11/Lethal-Company-Starter-Guide.jpg') no-repeat center center/cover; /* Replace 'your-image-url' with your image link */
+    mask-image: radial-gradient(
+        circle at var(--x) var(--y),
+        transparent -5%,
+        rgb(0, 0, 0) 20%
+    );
+}

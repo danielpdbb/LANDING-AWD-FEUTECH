@@ -9,7 +9,7 @@
 
   <title>Landing Page</title>
 
-  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,23 +56,9 @@
             </li>
 
             <li>
-              <a href="#" class="navbar-link">About.</a>
+              <a href="about.html" class="navbar-link">About.</a>
             </li>
-  
-           
-  
-            <!-- <li>
-              <a href="gallery.html" class="navbar-link">Gallery.</a>
-            </li>
-  
-            <li>
-              <a href="contact.html" class="navbar-link">Contact.</a>
-            </li>
-  
-            <li>
-              <a href="credits.html" class="navbar-link">Credits.</a>
-            </li> -->
-  
+
           </ul>
         </nav>
   
@@ -81,51 +67,61 @@
 
     <!-- END HEADER -->
 
-    <main class="projects-body">
+    <!-- NAVIGATION -->
+    <nav class="navigation" id="navigation">
+      <div class="container">
+        <h2 class="h3 section-title">Project Page</h2>
+          <div class="breadcrumb__links">
+            <p class="navigation-text"><a href="index.html">Home</a> / Project</p>
+          </div>
+      </div>
+    </nav>
 
-      <button class="cybr-btn cybr-btn-first">
-        Activity 1<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">Activity 1</span>
-      </button>
+    <!-- CONTENT -->
+    <main class="project-body">
 
-      <button class="cybr-btn cybr-btn-second">
-        Activity 2<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">Activity 2</span>
-      </button>
-
-      <button class="cybr-btn cybr-btn-third">
-        Activity 3<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">Activity 3</span>
-      </button>
-      
-      <button class="cybr-btn cybr-btn-fourth">
-        Activity 4<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">Activity 4</span>
-      </button>
-
-      <button class="cybr-btn cybr-btn-fifth">
-        TSA1<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">TSA1</span>
-      </button>
-      
-      <button class="cybr-btn cybr-btn-sixth">
-        TSA2<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">TSA2</span>
-      </button>
-
-      <button class="cybr-btn cybr-btn-seventh">
-        TSA3<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">TSA3</span>
-      </button>
-      
-      <button class="cybr-btn cybr-btn-eigth">
-        TSA4<span aria-hidden></span>
-        <span aria-hidden class="cybr-btn__glitch">TSA4</span>
-      </button>
-  
+      <div class="project-container">
+        <div class="button-row">
+            <a href="./assets/Projects/Project1/index.html" class="p-button fill">Background Animation</a>
+            <a href="./assets/Projects/Project2/index.html" class="p-button pulse">Bell Notifications</a>
+            <a href="./assets/Projects/Project3/index.html" class="p-button close">Illumination Effect</a>
+            <a href="./assets/Projects/Project4/index.html" class="p-button raise">Jumping Words</a>
+        </div>
+        <div class="button-row">
+            <a href="./assets/Projects/Project5/index.html" class="p-button up">Search Bar</a>
+            <a href="./assets/Projects/Project6/index.html" class="p-button slide">S1 - Technical</a>
+            <a href="./assets/Projects/Project7/index.html" class="p-button offset">S2 - Technical</a>
+            <a href="./assets/Projects/Project8/index.html" class="p-button fill">S3 - Technical</a>
+        </div>
+      </div>
 
     </main>
-      <!--Custom JS link-->
+
+  
+  <!-- Footer-->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Patrick<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023 <a href="#">Patrick Daniel Belarmino</a>
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- Go to top-->
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!--Custom JS link-->
   <script src="./assets/js/script.js"></script>
 
   <!-- Ionicon Link-->
